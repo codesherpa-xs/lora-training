@@ -196,7 +196,6 @@ class Predictor(BasePredictor):
             lr_scheduler=lr_scheduler,
             lr_warmup_steps=lr_warmup_steps,
             use_8bit_adam=False,
-            mixed_precision="fp16",
             output_dir=cog_output_dir,
             clip_ti_decay=clip_ti_decay,
             color_jitter=color_jitter,
